@@ -1,0 +1,7 @@
+{
+  "name": "codeweb-gate-testbed",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Fixture repo for codeweb Teams gate validation."
+}
