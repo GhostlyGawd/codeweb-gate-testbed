@@ -1,3 +1,3 @@
 Author-check verification branch.
 
-Created 2026-08-19T20:38:56Z to prove the marker scan only edits App-authored comments.
+Second push at 2026-08-19T20:40:04Z: forces the marker scan again with no recorded comment id.
