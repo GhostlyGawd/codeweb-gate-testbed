@@ -1,1 +1,1 @@
-draft fixture for VAL-GATE-032
+draft fixture, second push (still draft)
