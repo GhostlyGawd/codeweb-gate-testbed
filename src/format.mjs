@@ -21,3 +21,9 @@ export function formatPercent(part, whole) {
   if (!whole) return '0%';
   return `${Math.round((part / whole) * 100)}%`;
 }
+
+import { renderRow } from './report.mjs';
+
+export function decorateRow(row) {
+  return renderRow(row).toUpperCase();
+}
