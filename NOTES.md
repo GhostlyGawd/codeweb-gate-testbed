@@ -2,6 +2,6 @@
 
 Live webhook check.
 
-## queue drain after timeout
+## after the crash
 
-Fourth synchronize delivery: proves the repo queue still gates normally after a timed-out job.
+Fifth synchronize delivery: proves the service still gates normally after a pipeline crash.
