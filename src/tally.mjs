@@ -3,5 +3,5 @@ function tallyRows(items) {
 }
 
 export function totalRecords(items) {
-  return tallyRows(items);
+  return items.length;
 }
