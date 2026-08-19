@@ -1,1 +1,1 @@
-comments-history-cache run 1
+comments-history-cache run 2 (after restart)
