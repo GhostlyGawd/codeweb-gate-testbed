@@ -1,0 +1,9 @@
+{
+  "suppressions": [
+    {
+      "fingerprint": "d10a01a9dcbe3aca",
+      "verdict": "false-positive",
+      "note": "collapseSpaces is retained as a documented helper"
+    }
+  ]
+}
