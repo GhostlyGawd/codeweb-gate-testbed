@@ -1,0 +1,9 @@
+{
+  "suppressions": [
+    {
+      "fingerprint": "d10a01a9dcbe3aca",
+      "verdict": "false-positive",
+      "note": "VAL-DASH-007b validation: repo-committed suppression of known fixture"
+    }
+  ]
+}
