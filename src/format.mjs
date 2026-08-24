@@ -7,7 +7,7 @@ function collapseSpaces(text) {
 }
 
 export function formatLabel(raw) {
-  const collapsed = collapseSpaces(raw);
+  const collapsed = String(raw).replace(/\s+/g, ' ').trim();
   if (!collapsed) return '(untitled)';
   return collapsed[0].toUpperCase() + collapsed.slice(1);
 }
@@ -21,3 +21,6 @@ export function formatPercent(part, whole) {
   if (!whole) return '0%';
   return `${Math.round((part / whole) * 100)}%`;
 }
+// force a new head sha for a fresh gate run
+
+// Re-run after the subscription was restored to active.
