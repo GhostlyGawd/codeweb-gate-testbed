@@ -7,7 +7,7 @@ function collapseSpaces(text) {
 }
 
 export function formatLabel(raw) {
-  const collapsed = collapseSpaces(raw);
+  const collapsed = String(raw).replace(/\s+/g, ' ').trim();
   if (!collapsed) return '(untitled)';
   return collapsed[0].toUpperCase() + collapsed.slice(1);
 }
